@@ -33,15 +33,24 @@
 	main {
 		display: flex;
 		justify-content: center;
+		align-items: center;
 		height: 100vh;
-		overflow-y: scroll;
+		/* overflow-y: scroll;
 		overflow-x: hidden;
 
 		-ms-overflow-style: none;
-		scrollbar-width: none;
+		scrollbar-width: none; */
 	}
 
-	main::-webkit-scrollbar {
+	/* main::-webkit-scrollbar {
 		display: none;
+	} */
+
+	@media (min-height: 768px) {
+		main {
+			margin-top: 5rem;
+			height: 80vh;
+			align-items: center;
+		}
 	}
 </style>

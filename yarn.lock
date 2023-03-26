@@ -156,6 +156,11 @@
   dependencies:
     "@floating-ui/core" "^1.2.4"
 
+"@fontsource/rajdhani@^4.5.10":
+  version "4.5.10"
+  resolved "https://registry.yarnpkg.com/@fontsource/rajdhani/-/rajdhani-4.5.10.tgz#f87389032dcb626ee606115161eea66f41b0f4ae"
+  integrity sha512-4qsQsC4BELF8FC6UEBs5QBkek4v+/t0PYmQYtw1WDlNlq0V5mjUldMxjXzZano9/5HBihL7ztfQRPOf8WYexIQ==
+
 "@humanwhocodes/config-array@^0.11.8":
   version "0.11.8"
   resolved "https://registry.yarnpkg.com/@humanwhocodes/config-array/-/config-array-0.11.8.tgz#03595ac2075a4dc0f191cc2131de14fbd7d410b9"
@@ -287,7 +292,7 @@
   dependencies:
     import-meta-resolve "^2.2.0"
 
-"@sveltejs/kit@^1.0.0":
+"@sveltejs/kit@^1.5.0":
   version "1.14.0"
   resolved "https://registry.yarnpkg.com/@sveltejs/kit/-/kit-1.14.0.tgz#bb806b00471ec44b3c5e99aaa6bda48c8c640e80"
   integrity sha512-4e/cZT0z4IppEkqNvMrurGz6VE1gScukFU7XqwTL/yrGJGXHqS9D7RvsOcE1hASsgrMu6w/fKTIhxT5oN0K1Jw==

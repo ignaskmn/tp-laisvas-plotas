@@ -65,7 +65,7 @@
 		} else {
 			clearForm();
 			$pageStates = [0, 0, 0];
-			$services = [{ value: '', label: '' }];
+			// $services = [{ value: '', label: '' }];
 			goto('/success');
 		}
 
