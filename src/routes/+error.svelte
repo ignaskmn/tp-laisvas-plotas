@@ -4,13 +4,13 @@
 	import logo from '$lib/images/logo.svg';
 </script>
 
-<div class="hero-container">
+<div class="error-container">
 	<div class="introduction flex1">
 		<h1 class="hash-tag">#</h1>
-		<h1>laisvas <br /> plotas</h1>
+		<h1>tuščias <br /> puslapis</h1>
 	</div>
 	<div class="button">
-		<Button label={'Pradėti'} isActive isLarge onClick={() => goto('/form/1')} />
+		<Button label={'Į pradžią'} isActive isLarge onClick={() => goto('/')} />
 	</div>
 	<div class="logo-container flex1">
 		<div class="logo">
@@ -21,7 +21,7 @@
 </div>
 
 <style>
-	.hero-container {
+	.error-container {
 		display: flex;
 		flex-direction: column;
 		height: 100%;
@@ -81,7 +81,7 @@
 	}
 
 	@media (min-width: 768px) {
-		.hero-container {
+		.error-container {
 			width: 768px;
 		}
 	}

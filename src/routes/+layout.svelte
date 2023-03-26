@@ -3,6 +3,7 @@
 	import { invalidate } from '$app/navigation';
 	import { onMount } from 'svelte';
 	import type { LayoutData } from './$types';
+	import './globals.css';
 
 	export let data: LayoutData;
 
@@ -20,7 +21,27 @@
 </script>
 
 <svelte:head>
-	<title>Supabase Auth Helpers Demo</title>
+	<title>Tvirtovės Parkas - Laisvas Plotas</title>
+	<meta name="description" content="Tvirtovės Parkas - Laisvas Plotas - Objektų užsakymo sistema" />
 </svelte:head>
 
-<slot />
+<main>
+	<slot />
+</main>
+
+<style>
+	main {
+		display: flex;
+		justify-content: center;
+		height: 100vh;
+		overflow-y: scroll;
+		overflow-x: hidden;
+
+		-ms-overflow-style: none;
+		scrollbar-width: none;
+	}
+
+	main::-webkit-scrollbar {
+		display: none;
+	}
+</style>
