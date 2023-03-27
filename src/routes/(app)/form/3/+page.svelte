@@ -1,7 +1,7 @@
 <script lang="ts">
 	import Button from '$lib/components/Button.svelte';
 	import Input from '$lib/components/forms/Input.svelte';
-	import { form, pageStates, services } from '$lib/stores';
+	import { form, pageStates } from '$lib/stores';
 	import { goto } from '$app/navigation';
 	import { page } from '$app/stores';
 
