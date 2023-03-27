@@ -59,11 +59,5 @@
 				</p>
 			</div>
 		</form>
-
-		<div class="mt-6">
-			<p class="has-text-centered">
-				Don't have an account? <a href="/signup">Sign up</a>
-			</p>
-		</div>
 	</div>
 </section>
